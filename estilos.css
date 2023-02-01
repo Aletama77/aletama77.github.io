@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: #1c5052;
+
+}
+
+
+header {
+
+    background: #0a0c0d;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#foto {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+
+}
+
+#nombre {
+
+    margin-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#desarrollador {
+
+    margin-bottom: 15px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    text-align: center;
+
+}
+
+#boton {
+
+    margin-top: 5ps;
+    margin-bottom: 20px;
+    font-size: 15px;
+    background: #215a6d;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+#boton span:hover {
+    color: blue;
+}
+
+#boton:hover {
+
+    background-color: #213635;
+
+}
+
+
+
+.navegador {
+
+    margin-top: 5px;
+    text-decoration: none;
+    background-color: #348e91;
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.navegador div a {
+
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+
+/* :hover => cambia el color de la casilla al pasar con el cursor*/
+.navegador div div:hover {
+
+    background: #215a6d;
+    transition: all ease-in-out 300ms; /* al pasar con el cursor demora en seleccionar */
+    
+    
+}
+
+.navegador div a:hover {
+
+    color: tan;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+
+.textocaja {
+
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.cajas {
+
+    background-color: #213635;
+    margin-top: 5px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#caja1 {
+
+    color: white;
+    background-color: #213635;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+
+#caja2 {
+
+    width: auto;
+    background-color: #215a6d;
+    color: white;
+    height: auto;
+    text-align: center;
+
+}
+
+h3 {
+
+    text-align: center;
+
+}
+
+h4 {
+
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+
+svg {
+
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+footer p{
+    
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+
+footer {
+
+    background-color: #0a0c0d;
+    text-align: center;
+    width: auto;
+    height: 280px;
+
+}
+
+/* ícono flecha hacia arriba */
+footer a svg {
+
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    color: white;
+    cursor: pointer;
+    transition:  .3s;
+
+}
+
+footer a svg:hover {
+    color: #215a6d;
+    left: -10%;
+}
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
